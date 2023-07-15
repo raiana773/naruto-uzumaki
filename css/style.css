@@ -1,0 +1,110 @@
+/* font-family: 'Libre Baskerville', serif;
+font-family: 'Tapestry', cursive; */
+
+* {
+    font-family: 'Libre Baskerville',serif;
+    font-family: 'Tapestry';
+    text-decoration: none;
+    background: rgb(95,144,212);
+    background: linear-gradient(90deg, rgba(95,144,212,0.2530054258031338) 0%, rgba(13,173,255,1) 100%);
+}
+.container {
+    margin: 50px auto; 
+    flex-wrap: wrap;
+   color: white;
+}
+.uzumaki_content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.kun {
+    margin-right: 700px;
+    font-size: 20px;
+}
+.sumbol {
+   width: 15%;
+}
+.menu {
+    justify-content: center;
+    flex: end;
+    text-align: center;
+}
+.menu1 {
+    margin-right: 15px;
+    color: white;
+}
+.menu2 {
+    margin-right: 15px;
+    color: white;
+}
+.menu3 {
+    margin-right: 15px;
+    color: white;
+}
+.menu4 {
+    margin-right: 15px;
+    color: white;
+   
+}
+/* uzumaki end */
+
+
+/* about start */
+.metka1 {
+   padding-left: 360px;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+}
+.about p {
+    padding: 50px;
+    font-size: 20px;
+}
+/* about end */
+
+
+/* taget start */
+h2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 50px;
+    font-size: 40px;
+}
+.metka2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.metka3 {
+    padding: 50px;
+    font-size: 20px;
+}
+/* taget end */
+
+/* dream start */
+.dream {
+    padding: 50px;
+    font-size: 20px;
+    justify-content: center;
+}
+/* dream end */
+
+
+@media all and (max-width: 1200px){
+    .container {
+        width: 1100px;
+    }
+}
+
